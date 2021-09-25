@@ -26,6 +26,7 @@
   color: white;
   font: 1.5em Georgia, serif;
   box-sizing: border-box;
+  transition: background-color 1.5s ease;
 }
 .img {
   height: 200px;
@@ -35,5 +36,14 @@
   border: solid black;
   border-width: 2px;
   box-sizing: border-box;
+  transition: border 0.5s;
 }  
+
+.img:hover{
+  border: 10px solid yellow;
+}
+.innerBox:hover{
+  background-color: red;
+  font:bold 1em fantasy;
+}
 
