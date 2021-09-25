@@ -1,0 +1,39 @@
+.outerBox{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background: rgb(223, 184, 223);
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 100%;
+  flex-wrap: wrap; 
+  overflow: hidden;
+}
+
+.innerBox {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+  border: solid black;
+  border-width: 2px;
+  text-shadow: 1px 1px 2px black, 0 0 1em lime, 0 0 0.2em lime;
+  color: white;
+  font: 1.5em Georgia, serif;
+  box-sizing: border-box;
+}
+.img {
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  border: solid black;
+  border-width: 2px;
+  box-sizing: border-box;
+}  
+
